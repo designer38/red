@@ -1,0 +1,23 @@
+$primcolor:#202629;
+body{
+  #down{
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    background-color: $primcolor;
+    text-align: center;
+  
+    button{
+      background-color:$fontcolor;
+      bottom:100;
+color:$primcolor;
+font-weight: bold;
+      font-size: 16px;
+      padding:10px;
+      border: none;
+      border-radius: 12px;
+      width:160px;
+    }
+  }
+}

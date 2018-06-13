@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: sans-serif; }
+  body header {
+    text-align: center;
+    color: white;
+    background-image: url("header.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 50px; }
+    body header nav {
+      display: flex;
+      padding: 10px;
+      box-sizing: border-box;
+      justify-content: flex-end; }
+      body header nav p {
+        margin-right: 20px; }
+    body header hr {
+      border-color: white;
+      background-color: #ff5147;
+      width: 20px; }
+    body header button {
+      bottom: 100;
+      font-size: 16px;
+      padding: 10px;
+      border: none;
+      background-color: #ff5147;
+      color: white;
+      border-radius: 12px;
+      width: 160px; }
+
+body #three {
+  color: #202629;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr;
+  grid-gap: 25px; }
+  body #three .big {
+    font-size: 35px; }
+
+body #three img {
+  width: 100px;
+  height: 100px; }
+
+body {
+  width: calc(100% - 17px); }
+  body #six {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    text-align: center; }
+    body #six figure {
+      margin: 0; }
+    body #six img {
+      width: 449px; }
+
+body #barry {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  background-color: #ff5147;
+  text-align: center; }
+  body #barry hr {
+    border-color: white;
+    width: 20px; }
+  body #barry button {
+    background-color: white;
+    bottom: 100;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    width: 160px; }
+
+body #down {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  background-color: #202629;
+  text-align: center; }
+  body #down button {
+    background-color: white;
+    bottom: 100;
+    color: #202629;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    width: 160px; }
+
+body #contact {
+  color: #202629;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  body #contact hr {
+    width: 20px;
+    border-color: #ff5147; }
+
+body #foot {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  text-align: center; }
+  body #foot img {
+    width: 100px;
+    height: 100px; }
+  body #foot #num {
+    color: #202629; }
+  body #foot #mai {
+    color: #ff5147; }

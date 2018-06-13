@@ -1,0 +1,19 @@
+$primcolor:#202629;
+$maincolor:#ff5147;
+$hrwidth:20px;
+
+body{
+  #contact{
+    
+    color: $primcolor;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    hr{
+      width:$hrwidth;
+      border-color:$maincolor;
+
+    }
+
+  }
+}

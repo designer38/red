@@ -1,0 +1,24 @@
+$maincolor:#ff5147;
+$primcolor:#202629;
+
+body{
+  #foot{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+    text-align: center;
+    img{
+      width: 100px;
+      height:100px;
+    }
+    #num{
+      color:$primcolor;
+    }
+    #mai{
+      color:$maincolor;
+    }
+  }
+}

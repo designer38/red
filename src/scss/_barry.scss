@@ -1,0 +1,27 @@
+$maincolor:#ff5147;
+$hrwidth:20px;
+$fontcolor:white;
+
+body{
+  #barry{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:$fontcolor;
+    background-color: $maincolor;
+    text-align:center;
+    hr{
+      border-color: $fontcolor;
+      width:$hrwidth;
+    }
+    button{
+      background-color:$fontcolor;
+      bottom:100;
+
+    	font-size: 16px;
+    	padding:10px;
+      border: none;
+      border-radius: 12px;
+      width:160px;
+    }
+  }
+}
